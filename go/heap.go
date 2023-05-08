@@ -1,3 +1,13 @@
+
+func run() {
+  // create a new intHeap instance
+	nums := &intHeap{3, 1, 4, 5, 1, 1, 2, 6}
+  // The `Init` function reorders the numbers into a heap
+	heap.Init(nums)
+  // The slice is now reordered to conform to the heap property
+	fmt.Println(nums)
+}
+
 // we need to define a custom type instead of using the raw integer slice 
 // since we need to define methods on the type to implement the heap interface
 type intHeap []int
