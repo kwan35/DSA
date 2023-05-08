@@ -1,36 +1,36 @@
 DSA List
 
-Arrays
+1. Arrays
 
-Sorting (Quick Sort, Merge Sort, Selection Sort, Insertion, Related Time Complexities)
+2. Sorting (Quick Sort, Merge Sort, Selection Sort, Insertion, Related Time Complexities)
 
-Binary Search
+3. Binary Search
 
-Linked Lists, Doubly Linked Lists
+4. Linked Lists, Doubly Linked Lists
 
-Stacks
+5. Stacks
 
-Queues
+6. Queues
 
-Hash Maps
+7. Hash Maps
 
-Recursion
+8. Recursion
 
-Dynamic Programming (Knapsack Problem)
+9. Dynamic Programming (Knapsack Problem)
 
-Tree - BST Tries Heap/Priority Queues
+10. Tree - BST Tries Heap/Priority Queues
 
-Prorder tree traversal,Post Order inorder
+11. Prorder tree traversal,Post Order inorder
 
-Graphs (Both as nodes with edge attributes and as adjacency matrices)
+12. Graphs (Both as nodes with edge attributes and as adjacency matrices)
 
-Breadth First Search
+13. Breadth First Search
 
-Depth First Search
+14. Depth First Search
 
-Djikstra's Shortest path algorithim
+15. Djikstra's Shortest path algorithim
 
-Topological Sort
+16. Topological Sort
 
 
 
