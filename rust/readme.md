@@ -1,6 +1,8 @@
 
 Learn Rust by DSA
 
+1. learn rust pointer
+
 Learning note
 https://hackernoon.com/how-to-insert-binary-tree-in-rust
 
