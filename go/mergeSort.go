@@ -24,6 +24,50 @@ func generateSlice(size int) []int {
 	return slice
 }
 
+func mergeSort(item []int) []int {
+	var length = len(item)
+
+	if length == 1 {
+		return item
+	}
+	middle := length / 2
+
+	return merge(mergeSort(item[:middle]), mergeSort(item[middle:]))
+
+}
+
+func merge(left []int, right []int) []int {
+	leftlen := len(left)
+	rightlen := len(right)
+	total := leftlen + rightlen
+	res := []int{}
+	i, j := 0, 0
+
+	for c := 0; c < total; c++ {
+		if leftlen == 0 {
+			res = append(res, right[j])
+			j++
+			continue
+		}
+		if rightlen == 0 {
+			res = append(res, left[i])
+			i++
+			continue
+		}
+		if left[i] < right[j] {
+			res = append(res, left[i])
+			i++
+			leftlen--
+		} else {
+			res = append(res, right[j])
+			j++
+			rightlen--
+		}
+	}
+	return res
+}
+
+/* // sample
 func mergeSort(items []int) []int {
 	var num = len(items)
 
@@ -79,3 +123,4 @@ func merge(left, right []int) (result []int) {
 
 	return
 }
+*/
